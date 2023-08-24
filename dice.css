@@ -1,0 +1,54 @@
+* {
+    text-align: center;
+    /* border: 2px solid #DDC3A5; */
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    height: 100px;
+}
+
+hr {
+    width: 70%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+
+img {
+    height: 120px;
+    width: 120px;
+    margin: 50px;
+    transform: matrix3d(90);
+}
+
+
+#dice {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+#dice-value {
+    width: 30px;
+    /* height: 50px; */
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.52);
+    color: #ffffff;
+    position: absolute;
+    /* top: 40%;
+    left: 38%; */
+    /* float: left; */
+    padding: 0px;
+    margin-left: 85px;
+    margin-top: -225px;
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    border-bottom: 10px solid rgb(255, 255, 255);
+    /* display: none; */
+}
