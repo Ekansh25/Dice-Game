@@ -1,4 +1,5 @@
 async function fun() {
+    document.querySelector("#tone").play();
     document.querySelectorAll(".ddd")[0].classList.add("run");
     document.querySelectorAll(".ddd")[1].classList.add("run");
     await new Promise(r => setTimeout(r, 2000));

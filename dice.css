@@ -149,6 +149,10 @@ img {
     transition: 0.1s linear;
 }
 
+#tone {
+    display: none;
+}
+
 /* #dice-value {
     width: 30px; */
                  /* height: 50px; */     
