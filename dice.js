@@ -11,7 +11,6 @@ async function fun() {
 }
 
 document.querySelector("#play").onclick = fun;
-
 async function f() {
     // await new Promise(r => setTimeout(r, 2000));
     
